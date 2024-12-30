@@ -1,0 +1,55 @@
+.filter-button {
+  position: relative;
+}
+
+.filter-trigger {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 9999px;
+  background: white;
+  cursor: pointer;
+}
+
+.filter-trigger:hover {
+  background: #f9fafb;
+}
+
+.filter-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  margin-top: 0.5rem;
+  width: auto;
+  background: white;
+  border-radius: 0.375rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  border: 1px solid #e5e7eb;
+  z-index: 10;
+}
+
+.filter-menu-content {
+  padding: 0.5rem;
+}
+
+.filter-option {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  width: 100%;
+  padding: 0.5rem 0.75rem;
+  font-size: 0.875rem;
+  border-radius: 0.375rem;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.filter-option:hover {
+  background: #f3f4f6;
+}
+
+.filter-checkbox {
+  margin-right: 0.5rem;
+}

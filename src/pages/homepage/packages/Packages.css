@@ -1,0 +1,119 @@
+.package_section {
+    position: relative;
+    margin-top: 10rem;
+    height: auto;
+}
+.package_p {
+    color: var(--main-color);
+    font-weight: 800;
+    text-align: center;
+}
+.package_section h1 {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    text-align: center;
+}
+.package_container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+.package_card h2 {
+    color: white;
+}
+.package_p2 {
+    margin-top: 1rem;
+    font-size: 14px;
+    margin-bottom: .70rem;
+}
+.package_paragraph {
+    padding-bottom: 1rem;
+    margin-top: .5rem;
+    text-align: start;
+    font-weight: 100;
+    font-size: 13px;
+}
+.package_span {
+
+    font-size: 15px;
+    font-weight: 800;
+    color: var(--main-color);
+}
+.package_container img {
+    max-width: 100%;
+    aspect-ratio: 18 / 20;
+}
+.package_card_content {
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.package_card_content div {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+.package_card_content div p {
+    font-size: 13px;
+}
+.package_card_location {
+    display: flex;
+    margin-top: 1rem;
+    gap: 3px;
+}
+.package_card_location span {
+    color: white;
+}
+.package_card_box {
+padding: .1rem 1rem 1rem 1rem;
+}
+.package_card {
+    overflow: hidden;
+    width: 100%;
+    background: var(--container-color);
+    border-radius: 30px;
+    border: 1px solid #262626;
+    height: auto;
+}
+.package_btn {
+    margin-top: 2rem;
+    justify-content: center;
+  
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 13px;
+}
+/* ===== For large devices ====== */
+
+@media screen and (max-width: 1230px) {
+    .package_container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 992px) {
+
+}
+
+/* ===== For medium devices ===== */
+@media screen and (max-width: 768px) {
+    .package_container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+@media screen and (max-width: 576px) {
+    .package_container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .package_btn {
+      display: grid;
+    }
+}
+
+/* ===== For small devices ====== */
+
+@media screen and (max-width: 350px) {
+
+}

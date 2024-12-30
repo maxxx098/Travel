@@ -1,0 +1,123 @@
+
+footer {
+  position: relative;
+    background: var(--container-color);
+    border-top-left-radius: 130px;
+    margin-top: 3rem;
+    bottom: 0;
+}
+.footer__logo a {
+    color: rgb(224, 224, 224);
+}
+.footer__logo span {
+    color: var(--main-color);
+}
+  .footer__container {
+    display: grid;
+    gap: 2rem;
+  }
+  
+  .footer__col p {
+    margin-top: 1rem;
+    color: var(--text-light);
+  }
+  
+  .footer__col h4 {
+    margin-bottom: 1.5rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: white;
+  }
+  
+  .footer__links {
+    display: grid;
+    gap: .80rem;
+    font-size: 13px;
+  }
+  
+  .footer__links a {
+    font-weight: 500;
+    color: rgb(146, 146, 146);
+  }
+  
+  .footer__links a:hover {
+    color: var(--primary-color);
+  }
+  
+  .footer__socials {
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+  }
+  
+  .footer__socials a {
+    padding: 8px 12px;
+    color: var(--text-dark);
+    border-radius: 50%;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
+  }
+
+  
+  .footer__socials a:hover {
+    color: var(--white);
+    background-color: var(--primary-color);
+  }
+  
+  .footer__col h5 {
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: var(--text-light);
+  }
+  
+  .footer__discover {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .footer__discover img {
+    max-width: 120px;
+    border-radius: 1rem;
+  }
+  
+  .footer__bar {
+    padding: 1rem;
+    font-size: 0.9rem;
+    color: var(--text-light);
+    text-align: center;
+  }
+  
+  @media (width > 540px) {
+    .footer__container {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  
+    .footer__col:nth-child(4) {
+      grid-area: 2/1/3/2;
+    }
+  }
+  
+  @media (width > 768px) {
+    
+    .footer__container {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  
+    .footer__col:nth-child(4) {
+      grid-area: unset;
+    }
+    .footer__col:nth-child(2) {
+        position: relative;
+        left: 5rem;
+      }
+      .footer__col:nth-child(3) {
+        position: relative;
+        left: 3rem;
+      }
+  }
+  
+  @media (width > 1024px) {
+  
+  }
+  

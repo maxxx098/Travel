@@ -1,0 +1,175 @@
+
+.destination_section h2 {
+    text-align: center;
+    font-size: 2.2rem;
+    font-weight: 800;
+}
+.destination_section span {
+    color: var(--main-color);
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+.destination_section-p {
+    color: rgb(161, 161, 161);
+    font-size: 13px;
+    text-align: center;
+}
+.destination_container {
+    max-width: 1000px;
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: .5rem;
+}
+.destination_container > .destination_card:nth-child(4) {
+    background: var(--main-color);
+   
+  }
+  .destination_card button {
+    text-align: center;
+    font-size: 13px;
+  }
+.destination_card {
+    display: flex;
+    align-items: center;
+    background: var(--container-color);
+    padding: .8rem;
+    border-radius: 20px;
+    gap: .5rem;
+}
+input {
+    color: white;
+    font-size: 13px;
+    background: transparent;
+    border: none;
+    outline: none;
+    width: 100%;
+}
+.destination_button {
+    background: transparent;
+  
+}
+.filtering_card {
+    cursor: pointer;
+}
+.filtering_container {
+    margin-top: 2rem;
+    display: flex;
+    gap: 2rem;
+    justify-content: start;
+}
+.filter_images_container {
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 1rem;
+}
+.filter_images_card{
+    position: relative;
+}
+.filter_images_card img {
+    aspect-ratio: 1 / 1;
+}
+.filterActive {
+    border-bottom: 2px solid var(--main-color);
+}
+
+
+.filter_images_card {
+    position: relative; 
+    display: flex;
+    flex-direction: column;
+}
+
+.filter_images_card img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1/1; 
+}
+
+.filter_images_content {
+    position: absolute;
+    bottom: 0; 
+    left: 0;
+    width: 100%;
+    padding: 1rem;
+    background: rgba(0, 0, 0, 0.6); 
+    color: white; 
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.filter_images_content_card {
+    display: flex;
+    flex-direction: column; 
+    gap: 0.5rem; 
+}
+
+.filter_images_box {
+    display: flex;
+    align-items: center; 
+    gap: 0.5rem; 
+}
+
+.filter_images_box p {
+    margin: 0; 
+    font-size: 10px;
+}
+.filter_images_content_card p{
+    font-size: 10px;
+}
+
+
+/* ===== For large devices ====== */
+
+@media screen and (max-width: 1230px) {
+ 
+}
+
+@media screen and (max-width: 992px) {
+    .filter_images_container {
+        margin-top: 1rem;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 1rem;
+    }
+}
+
+/* ===== For medium devices ===== */
+@media screen and (max-width: 768px) {
+    .filter_images_container {
+        margin-top: 1rem;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 1rem;
+    }
+}
+@media screen and (max-width: 576px) {
+    .filter_images_container {
+        margin-top: 1rem;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 1rem;
+    }
+    .destination_container {
+        margin-top: 2rem;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: .5rem;
+    }
+    .filtering_container {
+        margin-top: 2rem;
+        display: grid;
+        gap: 2rem;
+        justify-content: start;
+    }
+}
+
+/* ===== For small devices ====== */
+
+@media screen and (max-width: 350px) {
+
+}

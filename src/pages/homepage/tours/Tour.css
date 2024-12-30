@@ -1,0 +1,77 @@
+.tours_section {
+    margin-top: 10rem;
+    position: relative;
+    height: auto;
+}
+.tours_content {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 1rem;
+    margin-top: 2rem;
+}
+.tours_container span {
+    color: var(--main-color);
+    font-weight: 800;
+}
+.tours_container h2 {
+    font-size: 2.4rem;
+    margin-top: .40rem;
+}
+.tours_btn {
+    margin-top: 1rem;
+}
+.tours_p {
+    margin-top: .60rem;
+    font-size: 13px;
+    max-width: 700px;
+}
+.tours_content img {
+    aspect-ratio: 16 / 18;
+    max-width: 100%;
+}
+.tours_card {
+    position: relative;
+}
+.tours_card_box {
+    position: absolute;
+    top: 5px; 
+    right: 5px; 
+    background-color: var(--main-color);
+    padding: 5px 12px;
+    border-radius: 20px;
+    z-index: 1; 
+    
+}
+.tours_card_box p {
+    color: black;
+    font-size: 12px;
+}
+/* ===== For large devices ====== */
+
+@media screen and (max-width: 1230px) {
+ 
+}
+
+@media screen and (max-width: 992px) {
+    .tours_content {
+        grid-template-columns: repeat(3,1fr); 
+    }
+}
+
+/* ===== For medium devices ===== */
+@media screen and (max-width: 768px) {
+    .tours_content {
+        grid-template-columns: repeat(2,1fr); 
+    }
+}
+@media screen and (max-width: 576px) {
+    .tours_content {
+        grid-template-columns: repeat(1,1fr); 
+    }
+}
+
+/* ===== For small devices ====== */
+
+@media screen and (max-width: 350px) {
+
+}

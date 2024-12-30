@@ -1,0 +1,123 @@
+.holiday_section {
+    width: 100%;
+    margin-top: 8rem;
+   
+}
+.holiday_container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 9rem;
+}
+.holiday_section_img img {
+    aspect-ratio: 16 / 20;
+    border-radius: 10px;
+    max-width: 100%;
+}
+.holiday_section_text h5 {
+    font-size: 22px;
+    font-weight: 600;
+    color: var(--main-color);
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    margin-bottom: 20px;
+}
+.holiday_section_text h2 {
+    font-size: 2.50rem;
+    font-weight: 800;
+    line-height: 1.2;
+    margin-bottom: 25px;
+    color: white;
+}
+.holiday_section_text p {
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 30px;
+    margin-bottom: 25px;
+    color: var(--text-color);
+}
+.play {
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+   align-items: center;
+}
+.play_image {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.play_icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #DF6951;
+    box-shadow: 0px 15px 30px rgba(223, 105, 81, 0.3);
+    padding: 1rem;
+    border-radius: 50%;
+    height: 52px;
+    width: 52px;
+    cursor: pointer;
+}
+.play_p {
+    position: relative;
+    top: .9rem;
+    
+}
+.play_p p:hover {
+  cursor: pointer;
+   border-bottom: 1px solid #DF6951;
+}
+
+/* ===== For large devices ====== */
+
+@media screen and (max-width: 1230px) {
+    .holiday_section_text h5 {
+        font-size: 1rem;
+    }
+    .holiday_section_text h2 {
+        font-size: 1.9rem;
+    }
+    .holiday_section_text p {
+        font-size: 12px;
+    }
+    .holiday_container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+    .play {
+        width: 350px;
+        gap: 1rem;
+     }
+}
+
+@media screen and (max-width: 992px) {
+    .holiday_container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+        gap: 9rem;
+    }
+}
+
+/* ===== For medium devices ===== */
+@media screen and (max-width: 768px) {
+    .play {
+        width: auto;
+        gap: 1rem;
+     }
+}
+@media screen and (max-width: 576px) {
+    .play {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        align-items: center;
+        gap: 2rem;
+     }
+    
+}
+
+/* ===== For small devices ====== */
+
+@media screen and (max-width: 350px) {
+
+}

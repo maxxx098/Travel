@@ -1,0 +1,150 @@
+
+import Image_1 from '../assets/avif/Image_1.avif'
+import Image_2 from '../assets/avif/Image_2.avif'
+import Image_3 from '../assets/avif/Image_3.avif'
+import Image_4 from '../assets/avif/Image_4.avif'
+import Image_5 from '../assets/avif/Image_5.avif'
+import Image_6 from '../assets/avif/Image_6.avif'
+import Image_7 from '../assets/avif/Image_7.avif'
+import Image_8 from '../assets/avif/Image_8.avif'
+import Image_9 from '../assets/avif/Image_9.avif'
+import Image_10 from '../assets/avif/Image_10.avif'
+import Image_11 from '../assets/avif/Image_11.avif'
+import Image_12 from '../assets/avif/Image_12.avif'
+
+
+export const mockActivities = [
+  {
+    id: 1,
+    type: 'DAY TRIP',
+    title: 'From Edinburgh: Loch Ness, Glencoe & Scottish Highlands Tour',
+    duration: '12.5 hours',
+    price: 3741,
+    originalPrice: 3938,
+    rating: 4.7,
+    reviews: 8544,
+    imageUrl: Image_1,
+    isLikelyToSellOut: true,
+  },
+  {
+    id: 2,
+    type: 'DAY TRIP',
+    title: 'From London: Harry Potter Warner Bros Studio Tour',
+    duration: '7 hours',
+    price: 7574,
+    rating: 4.7,
+    reviews: 21528,
+    imageUrl: Image_2,
+    isLikelyToSellOut: true,
+  },
+  {
+    id: 3,
+    type: 'GUIDED TOUR',
+    title: 'Edinburgh Castle: Guided Walking Tour with Entry Ticket',
+    duration: '1.5 hours',
+    price: 2651,
+    rating: 4.7,
+    reviews: 7224,
+    imageUrl: Image_3,
+    isLikelyToSellOut: true,
+  },
+  {
+    id: 4,
+    type: 'DAY TRIP',
+    title: 'Edinburgh: Loch Ness, Glencoe & the Scottish Highlands Tour',
+    duration: '12.5 hours',
+    price: 3954,
+    originalPrice: 4393,
+    rating: 4.6,
+    reviews: 11125,
+    imageUrl: Image_4,
+  },
+  {
+    id: 5,
+    type: 'DAY TRIP',
+    title: 'From Belfast: Giant’s Causeway and Game of Thrones Day Tour',
+    duration: '8.5 hours',
+    price: 3954,
+    originalPrice: 2651,
+    rating: 4.6,
+    reviews: 11125,
+    imageUrl: Image_5,
+  },
+  {
+    id: 6,
+    type: 'DAY TRIP',
+    title: 'Edinburgh: Loch Ness, Glencoe & the Scottish Highlands Tour',
+    duration: '12.5 hours',
+    price: 3954,
+    originalPrice: 4393,
+    rating: 4.6,
+    reviews: 11125,
+    imageUrl: Image_6,
+  },
+  {
+    id: 7,
+    type: 'DAY TRIP',
+    title: 'Edinburgh: Loch Ness, Glencoe & the Scottish Highlands Tour',
+    duration: '12.5 hours',
+    price: 3954,
+    originalPrice: 4393,
+    rating: 4.6,
+    reviews: 11125,
+    imageUrl: Image_7,
+  },
+  {
+    id: 8,
+    type: 'DAY TRIP',
+    title: 'Edinburgh: Loch Ness, Glencoe & the Scottish Highlands Tour',
+    duration: '12.5 hours',
+    price: 3954,
+    originalPrice: 4393,
+    rating: 4.6,
+    reviews: 11125,
+    imageUrl: Image_8,
+  },
+  {
+    id: 9,
+    type: 'DAY TRIP',
+    title: 'Edinburgh: Loch Ness, Glencoe & the Scottish Highlands Tour',
+    duration: '12.5 hours',
+    price: 3954,
+    originalPrice: 4393,
+    rating: 4.6,
+    reviews: 11125,
+    imageUrl: Image_9,
+  },
+  {
+    id: 10,
+    type: 'DAY TRIP',
+    title: 'Edinburgh: Loch Ness, Glencoe & the Scottish Highlands Tour',
+    duration: '12.5 hours',
+    price: 3954,
+    originalPrice: 4393,
+    rating: 4.6,
+    reviews: 11125,
+    imageUrl: Image_10,
+  },
+  {
+    id: 11,
+    type: 'DAY TRIP',
+    title: 'Edinburgh: Loch Ness, Glencoe & the Scottish Highlands Tour',
+    duration: '12.5 hours',
+    price: 3954,
+    originalPrice: 4393,
+    rating: 4.6,
+    reviews: 11125,
+    imageUrl: Image_11,
+  },
+  {
+    id: 12,
+    type: 'DAY TRIP',
+    title: 'Edinburgh: Loch Ness, Glencoe & the Scottish Highlands Tour',
+    duration: '12.5 hours',
+    price: 3954,
+    originalPrice: 4393,
+    rating: 4.6,
+    reviews: 11125,
+    imageUrl: Image_12,
+  },
+];

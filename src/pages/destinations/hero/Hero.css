@@ -1,0 +1,8 @@
+.hero_bg {
+    background-image: linear-gradient(to left, rgba(0,0,0,0.6), rgba(0,0,0,0.3)),url(../../../assets/img/Img_3.jpg);
+    height: auto;
+    width: 100%;
+    background-size: cover;
+    background-position:  bottom ;
+    padding: 100px 17% 200px;
+}
